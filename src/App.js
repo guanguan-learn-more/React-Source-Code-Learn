@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import "./App.css";
+import HooksDemo from './HooksDemo';
+import EventDemo from './EventDemo';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>
+        <p>hello React source code~</p>
+      </h3>
+      <span>Joy Guan </span>
+      {/* <h3>Hooks Demo</h3> */}
+      {/* <HooksDemo /> */}
+      <EventDemo />
     </div>
   );
 }
+
+
 
 export default App;
