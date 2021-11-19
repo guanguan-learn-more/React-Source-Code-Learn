@@ -2,6 +2,8 @@ import * as React from "react";
 import "./App.css";
 import HooksDemo from './HooksDemo';
 import EventDemo from './EventDemo';
+import SetStateDemo from './SetStateDemo';
+import ConcurrentDemo from './ConcurrentDemo';
 
 
 
@@ -14,7 +16,9 @@ function App() {
       <span>Joy Guan </span>
       {/* <h3>Hooks Demo</h3> */}
       {/* <HooksDemo /> */}
-      <EventDemo />
+      {/* <EventDemo /> */}
+      {/* <SetStateDemo /> */}
+      <ConcurrentDemo />
     </div>
   );
 }
